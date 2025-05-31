@@ -13,15 +13,15 @@ section {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/hero.webp') center/cover no-repeat;
+    background: url('assets/hero.webp') center/cover no-repeat;
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    height: 80vh;
 }
 
 .hero .button{
-    display: inline-block;
-    margin-top: 20px;
+    position: relative;
+    top: 79vh;
     padding: 12px 24px;
     background-color: #007BFF;
     color: white;
